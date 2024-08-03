@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+nav{
+    background-color: #2d2d2d;
+    height: 60px;
+    padding: 20px 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+.sec-1{
+    /* border: 2px solid red; */
+    padding-top: 280px;
+    width: 100%;
+    height: 700px;
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    
+    
+}
+.sec-1 h1{
+    background-color: #2d2d2d;
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: center;
+    border: 3px double white;
+    border-radius: 20px;
+}
+.sec-2{
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 100%;
+}
+.sec-2 h1{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    background-color: #ffdd00;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 20px;
+    
+    
+}
+.sec-2 p{
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    padding: 40px;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    border-radius: 20px;
+    text-align:justify ;
+}
+.sec-3{
+    width: 100%;
+    height: 700px;
+    background-color: #ffdd00;
+    padding: 60px 0px;
+}
+.sec-3 h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+}
+.sec-3 div{
+
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 0px 10px;
+    border: 2px solid black;
+}
+.sec-4{
+    height: 700px;
+    width: 100%;
+    padding: 50px 0px;
+}
+.sec-4 h1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #2d2d2d;
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+    /* border: 3px double white; */
+    border-radius: 20px;
+}
+.sec-4 .main{
+
+    width: 80%;
+    margin: auto;
+    /* border:2px solid blue; */
+}
+.sec-4 .main .child {
+    
+    width: 48%;
+    /* border:3px dotted black; */
+    display: inline-block;
+    vertical-align: top;
+}
+input ,textarea{
+    margin: 5px 0px;
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #ffdd00;
+    border-radius: 20px;
+}
+.bg-dark{
+    background-color: #2d2d2d;
+    color: whitesmoke;
+}
+iframe{
+    height: 380px;
+    width: 95%;
+}
+.bd-right{
+    border-right: 3px solid black;
+}
+footer{
+    background-color: #2d2d2d;
+    height: 60px;
+    padding: 1 0px 0px;
+    text-align: center;
+    color: whitesmoke;
+}
